@@ -1,0 +1,76 @@
+/* selector{
+    property: value;
+} */
+
+p{
+    color:brown;
+} /* element selector*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+} /universal selector/ 
+
+*{
+    background-color: rgb(244, 238, 238);
+}
+
+#header {
+    background-color: grey;
+} /id selector(unik,gak boleh spasi, harus unik/
+
+/atribut adalah/
+
+#tombol-login {
+    background-color: gold;
+}
+
+/class selector/
+.kotak{
+    background-color: bisque;
+}
+
+/atribut selector/
+input[type="text"]{
+    border: 1px solid black;
+}
+
+a[tittle="fasilkom-ti"]{
+    color:chartreuse
+}
+
+
+/combinator/
+
+/descendant/
+/selctor div combinya p/
+
+div p{
+    color: chartreuse;
+}
+
+.container p{
+    color:blueviolet
+}
+
+
+.container > p{
+    color:blueviolet
+}
+
+/* child khusus anaknya, decenden semuanya
+div > p{
+    color: chartreuse;
+}*/
+
+/* h1+p{
+    color:aliceblue;
+} */
+
+.box-model {
+    background-color: blueviolet ;
+    width: 300 px;
+    border: 15 px green; 
+    padding: 50 px; 
+    margin: 20 px;
+}
